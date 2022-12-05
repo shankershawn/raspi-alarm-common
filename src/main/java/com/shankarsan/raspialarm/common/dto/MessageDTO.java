@@ -2,7 +2,7 @@ package com.shankarsan.raspialarm.common.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class MessageDTO {
+public class MessageDTO extends PayloadDTO{
 	
 	@JsonProperty private int pulseCount;
 	@JsonProperty private int pulseMillis;
